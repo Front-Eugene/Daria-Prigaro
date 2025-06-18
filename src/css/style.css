@@ -315,7 +315,7 @@ tr:hover {
 }
 
 .tab-btn.active {
-  border-bottom: 3px solid #bfa14a;
+  border: 3px solid #bfa14a;
 }
 
 .tab-content-wrap {
