@@ -488,6 +488,8 @@ tr:hover {
         padding: 20px 50px;
         display: none;
         z-index: -1;
+        bottom: auto;
+        top: 150px;
     }
 
     .nav-ul.active {
@@ -551,9 +553,13 @@ tr:hover {
         padding: 5px 1px;
         font-size: 10px;
     }
+
+    .section {
+        padding: 0 15px;
+    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
 
     .films {
         overflow-x: scroll;
@@ -573,10 +579,6 @@ tr:hover {
 
     .screen-content h2 {
         font-size: 25px;
-    }
-
-    .section {
-        padding: 0 15px;
     }
 
     .tabs {
