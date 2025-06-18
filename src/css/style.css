@@ -542,6 +542,15 @@ tr:hover {
     .tab-btn.active {
         border: 2px solid #bfa14a;
     }
+
+    tr:hover {
+        background: #00000000;
+    }
+
+    td, th {
+        padding: 5px 1px;
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -608,14 +617,5 @@ tr:hover {
 
     .contact {
         padding-bottom: 50px;
-    }
-
-    tr:hover {
-        background: #00000000;
-    }
-
-    td, th {
-        padding: 5px 1px;
-        font-size: 10px;
     }
 }
