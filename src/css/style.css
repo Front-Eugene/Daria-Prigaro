@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
