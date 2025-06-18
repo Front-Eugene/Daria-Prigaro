@@ -564,6 +564,10 @@ tr:hover {
     .section {
         padding: 0 15px;
     }
+
+    .photos {
+        padding: 0 15px
+    }
 }
 
 @media (max-width: 400px) {
